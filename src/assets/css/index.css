@@ -5,11 +5,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  color: #404040
+  /* color: #404040 */
 }
 
 main {
-  min-height: 150vh;
+  min-height: 800vh;
 }
 
 .navbar-brand img {
@@ -27,7 +27,7 @@ main {
 
 .feature_container {
   margin-top: 100px;
-  background-color: rgb(23, 216, 216);
+  /* background-color: rgb(23, 216, 216); */
 }
 
 .feature_container img {
@@ -35,4 +35,10 @@ main {
   margin-bottom: 30px;
   width: 70px;
   border: 1px solid black
+}
+
+.demo_container {
+  background-color: #494fca;
+  margin-top: 50px;
+  color: white
 }
