@@ -5,6 +5,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  color: #404040
+}
+
+main {
+  min-height: 150vh;
 }
 
 .navbar-brand img {
@@ -18,4 +23,16 @@
 
 .hero_image img {
   max-width: 100%;
+}
+
+.feature_container {
+  margin-top: 100px;
+  background-color: rgb(23, 216, 216);
+}
+
+.feature_container img {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  width: 70px;
+  border: 1px solid black
 }
