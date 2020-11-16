@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
 * {
   margin: 0;
@@ -11,3 +11,11 @@
   width: 150px;
 }
 
+.hero__container {
+  background-color: rgb(56, 56, 223);
+  color: white;
+}
+
+.hero_image img {
+  max-width: 100%;
+}
