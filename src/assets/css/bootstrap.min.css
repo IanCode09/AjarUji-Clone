@@ -4736,7 +4736,10 @@ input[type=submit].btn-block {
 }
 
 .navbar {
-    position: relative;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+    width: 100%;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
