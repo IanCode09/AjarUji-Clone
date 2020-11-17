@@ -1,5 +1,6 @@
 import React from 'react'
 import { Row, Col, Image, Container, Button } from 'react-bootstrap'
+import ButtonCom from './Button'
 import HeroImage from '../assets/images/Hero.png'
 
 const Hero = () => {
@@ -12,9 +13,7 @@ const Hero = () => {
 
                         <p style={{ marginTop: '20px' }}>Belajar lebih mudah, kapanpun, dimanapun mudah dijangkau hingga kepelosok negeri.</p>
 
-                        <Button style={{ marginTop:'20px' }}>
-                            Mulai Belajar
-                        </Button>
+                        <ButtonCom>Mulai Belajar</ButtonCom> 
                     </Col>
 
                     <Col md={6} className='hero_image'>

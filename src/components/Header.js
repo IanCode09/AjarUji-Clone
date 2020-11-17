@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Navbar, Nav, Image } from 'react-bootstrap'
+import ButtonCom from './Button'
 import Logo from '../assets/images/LogoAjarUji.png'
 
 const Header = () => {
@@ -18,7 +19,7 @@ const Header = () => {
                             <Nav.Link href="#link">Fitur</Nav.Link>
                             <Nav.Link href="#link">Berlangganan</Nav.Link>
                             <Nav.Link href="#link">Tentang Kami</Nav.Link>
-                            <Nav.Link href="#link">Masuk</Nav.Link>
+                            <ButtonCom>Masuk</ButtonCom>
                         </Nav>
                     </Navbar.Collapse>
 

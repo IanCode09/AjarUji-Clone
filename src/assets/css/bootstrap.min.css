@@ -2880,14 +2880,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #007bff;
-    border-color: #007bff
+    color:#494fca;
+    background-color: #ffffff;
+    border-color: #ffffff
 }
 
 .btn-primary:hover {
-    color: #fff;
-    background-color: #0069d9;
+    color: black;
+    background-color: #e9ecf0;
     border-color: #0062cc
 }
 
