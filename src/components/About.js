@@ -14,7 +14,7 @@ const About = () => {
     
     return (
         <div className='about_container text-center'>
-            <h3 className='mb-4'>Apa itu Ajar Uji?</h3> 
+            <h3 className='mb-4'><strong>Apa itu Ajar Uji?</strong></h3> 
             <h6 style={{ lineHeight: '30px' }}>Ajar Uji merupakan platform belajar online yang mempermudah siswa, guru dan sekolah dalam melaksanakan, <br/>kegiatan belajar dan mengajar. Ajar Uji menyediakan kelas online, penjelasan yang disajikan dengan menarik, <br/>bank soal, mata pelajaran, dan kurikulum yang lengkap.</h6>
 
             <Carousel breakPoints={breakPoints}>

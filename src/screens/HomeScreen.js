@@ -5,6 +5,8 @@ import Hero from '../components/Hero'
 import Feature from '../components/Feature'
 import Demo from '../components/Demo'
 import About from '../components/About'
+import Subsribe from '../components/Subsribe'
+import Testimoni from '../components/Testimoni'
 
 const HomeScreen = () => {
     return (
@@ -15,6 +17,8 @@ const HomeScreen = () => {
                 <Feature />
                 <Demo />
                 <About />
+                <Subsribe />
+                <Testimoni />
             </main>
         </div>
     )
