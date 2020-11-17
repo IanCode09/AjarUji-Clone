@@ -21,7 +21,7 @@ main {
   color: white;
 }
 
-.hero_image img {
+.hero_image img { 
   max-width: 100%;
 }
 
@@ -33,12 +33,30 @@ main {
 .feature_container img {
   margin-top: 50px;
   margin-bottom: 30px;
-  width: 70px;
-  border: 1px solid black
+  width: 100px;
 }
 
 .demo_container {
   background-color: #494fca;
   margin-top: 50px;
   color: white
+}
+
+.about_container {
+  margin-top: 50px;
+}
+
+.about_container img {
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.rec-carousel-item:focus {
+  outline: none;
+  box-shadow: inset 0 0 1px 0px violet;
+}
+
+.rec.rec-arrow{
+  visibility: hidden;
 }
