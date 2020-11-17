@@ -94,8 +94,9 @@
   /* padding: 30px; */
   border: 1px solid rgb(224, 224, 224);
   border-radius: 10px;
-  box-shadow: 5px 7px 5px rgb(189, 184, 184);
+  box-shadow: 5px 5px 5px rgb(105, 105, 105);
   margin: 20px;
+  background-color: white;
 }
 
 .subscribe_item h6, .testimoni_item h6 {
@@ -111,7 +112,14 @@
 .subscribe_list {
   margin-top: 30px;
   margin-bottom: 50px;
+  z-index: 2;
 }
+
+.subscribe_path img {
+  width: 100%;
+  margin-top: -350px;
+}
+
 
 .discountImg {
   position: absolute;
