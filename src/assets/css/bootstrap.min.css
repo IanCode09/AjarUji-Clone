@@ -5784,10 +5784,10 @@ a.badge-dark:focus {
 }
 
 .jumbotron {
-    padding: 2rem 1rem;
-    margin-bottom: 2rem;
-    background-color: #e9ecef;
-    border-radius: .3rem
+    background-image: url("../images/Path.png");
+    background-size: cover;
+    height: 800px;
+    color: white;
 }
 
 @media (min-width:576px) {

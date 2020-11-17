@@ -1,27 +1,29 @@
 import React from 'react'
-import { Row, Col, Image, Container, Button } from 'react-bootstrap'
+import { Row, Col, Image, Container, Jumbotron } from 'react-bootstrap'
 import ButtonCom from './Button'
-import HeroImage from '../assets/images/Hero.png'
+import HeroItem from '../assets/images/Hero.png'
 
 const Hero = () => {
     return (
-        <div className='hero__container'>
-            <Container>
-                <Row>
-                    <Col md={6} className='mt-4'>
-                        <h1>Platform Sekolah Online yang Menyenangkan</h1>
+        <>
+            <Jumbotron>
+                <Container className='hero__container'>
+                    <Row>
+                        <Col md={6} className='mt-4'>
+                            <h1 style={{ lineHeight:'50px', fontWeight:'bold' }}>Platform Sekolah Online yang Menyenangkan</h1>
 
-                        <p style={{ marginTop: '20px' }}>Belajar lebih mudah, kapanpun, dimanapun mudah dijangkau hingga kepelosok negeri.</p>
+                            <p style={{ margin: '30px 0', lineHeight:'30px' }}>Belajar lebih mudah, kapanpun, dimanapun mudah dijangkau hingga kepelosok negeri.</p>
 
-                        <ButtonCom>Mulai Belajar</ButtonCom> 
-                    </Col>
+                            <ButtonCom>Mulai Belajar</ButtonCom> 
+                        </Col>
 
-                    <Col md={6} className='hero_image'>
-                        <Image src={HeroImage} />
-                    </Col>
-                </Row>
-            </Container>
-        </div>
+                        <Col md={6} className='hero_image'>
+                            <Image src={HeroItem} />
+                        </Col>
+                    </Row>
+                </Container>
+            </Jumbotron>
+        </>
     )
 }
 
