@@ -7,6 +7,7 @@ const subscribes = [
         "category": "Bulanan",
         "description": "Akses tak terhingga dengan berlangganan bulanan di Ajar Uji.",
         "price": "39.000",
+        "duration": "Bulan",
         "isDiscount": false,
         "img": Image1
     },
@@ -15,6 +16,7 @@ const subscribes = [
         "category": "Tahunan",
         "description": "Penawaran terbaik dengan berlangganan selama setahun",
         "price": "29.000",
+        "duration": "Bulan",
         "isDiscount": true,
         "img": Image2
     },
@@ -23,6 +25,7 @@ const subscribes = [
         "category": "Grup",
         "description": "Belajar bersama dengan Ajar Uji bersama teman lebih menarik",
         "price": "550.000",
+        "duration": "Tahun",
         "isDiscount": false,
         "img": Image3
     }
