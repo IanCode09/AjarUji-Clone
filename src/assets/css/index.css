@@ -41,9 +41,16 @@
 }
 
 .demo_container {
+  padding: 60px;
+  height: 350px;
   background-color: #494fca;
   margin-top: 50px;
   color: white
+}
+
+.demo_container h3,
+.demo_container h6 {
+  margin-bottom: 50px;
 }
 
 .about_container {
