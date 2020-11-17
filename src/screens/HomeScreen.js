@@ -7,6 +7,7 @@ import Demo from '../components/Demo'
 import About from '../components/About'
 import Subsribe from '../components/Subsribe'
 import Testimoni from '../components/Testimoni'
+import Footer from '../components/Footer'
 
 const HomeScreen = () => {
     return (
@@ -20,6 +21,7 @@ const HomeScreen = () => {
                 <Subsribe />
                 <Testimoni />
             </main>
+            <Footer />
         </div>
     )
 }
