@@ -22,13 +22,22 @@
 
 .feature_container {
   margin-top: 100px;
-  /* background-color: rgb(23, 216, 216); */
+  margin-bottom: 100px;
+}
+
+.feature_container h3 {
+  margin-bottom: 40px;
 }
 
 .feature_container img {
   margin-top: 50px;
   margin-bottom: 30px;
   width: 100px;
+}
+
+.feature_item {
+  width: 90%;
+  margin: auto;
 }
 
 .demo_container {
