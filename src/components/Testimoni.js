@@ -15,7 +15,7 @@ const Testimoni = () => {
     return (
         <div className='testimoni_container text-center'>
             <Container>
-                <h3 className='mb-4'><strong>Mengapa Memilih Ajar Uji?</strong></h3>
+                <h3><strong>Mengapa Memilih Ajar Uji?</strong></h3>
                 <h6 style={{ lineHeight: '30px' }}>Ajar Uji memiliki banyak keunggulan yang menjadi pilihan terbaik. Berikut kata mereka yang telah bergabung <br/>dan belajar dengan Ajar Uji.</h6>
 
                 <Carousel breakPoints={breakPoints}>

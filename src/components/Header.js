@@ -8,17 +8,17 @@ const Header = () => {
         <div>
             <Navbar bg="primary" expand="lg">
                 <Container>
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand href="/">
                         <Image src={Logo} />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ml-auto">
-                            <Nav.Link href="#home">Beranda</Nav.Link>
-                            <Nav.Link href="#link">Uji Coba</Nav.Link>
-                            <Nav.Link href="#link">Fitur</Nav.Link>
-                            <Nav.Link href="#link">Berlangganan</Nav.Link>
-                            <Nav.Link href="#link">Tentang Kami</Nav.Link>
+                            <Nav.Link href="/">Beranda</Nav.Link>
+                            <Nav.Link href="/ujicoba">Uji Coba</Nav.Link>
+                            <Nav.Link href="/fitur">Fitur</Nav.Link>
+                            <Nav.Link href="/berlangganan">Berlangganan</Nav.Link>
+                            <Nav.Link href="/tentangkami">Tentang Kami</Nav.Link>
                             <ButtonCom>Masuk</ButtonCom>
                         </Nav>
                     </Navbar.Collapse>
