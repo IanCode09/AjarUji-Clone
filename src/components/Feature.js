@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import Features from '../json/feature'
+import { Slide } from 'react-reveal'
 
 const Feature = () => {
     return (
@@ -11,12 +12,15 @@ const Feature = () => {
 
                 <div className='feature_item'>
                     <Row>
-                        {Features.map((feature) => (
-                            <Col>
-                                <Image src={feature.image} />
-                                <h5 className='mb-4'><strong>{feature.featureName}</strong></h5>
-                                <p>{feature.description}</p>
-                            </Col>
+                        {Features.map((feature, index) => (
+                            
+                                <Col>
+                                    <Slide top delay={index*50}>
+                                        <Image src={feature.image} />
+                                        <h5 className='mb-4'><strong>{feature.featureName}</strong></h5>
+                                        <p>{feature.description}</p>
+                                    </Slide>
+                                </Col>
                         ))}
                     </Row>
                 </div>
